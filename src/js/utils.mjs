@@ -27,6 +27,7 @@ export function getParam(param) {
   const urlParams = new URLSearchParams(queryString);
   return urlParams.get(param);
 }
+<<<<<<< HEAD
 
 export function renderListWithTemplate(
   templateFn,
@@ -108,3 +109,5 @@ export function removeAllAlerts() {
   const alerts = document.querySelectorAll(".alert");
   alerts.forEach((alert) => document.querySelector("main").removeChild(alert));
 }
+=======
+>>>>>>> c9f3cd121c93b753379770718fa0cae08f9005ca

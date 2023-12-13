@@ -3,6 +3,7 @@ import productDetails from "./productDetails.mjs";
 
 const productId = getParam("product");
 productDetails(productId);
+<<<<<<< HEAD
 
 document.getElementById('addToCart').addEventListener('click', function() {
     // Get product details
@@ -24,3 +25,5 @@ document.getElementById('addToCart').addEventListener('click', function() {
     // Notify the user that the product has been added to the cart
     alert('Product added to cart!');
   });
+=======
+>>>>>>> c9f3cd121c93b753379770718fa0cae08f9005ca
