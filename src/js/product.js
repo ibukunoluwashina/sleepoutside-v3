@@ -1,16 +1,26 @@
-import { setLocalStorage } from "./utils.mjs";
-import { findProductById } from "./productData.mjs";
+import { getParam } from "./utils.mjs";
+import productDetails from "./productDetails.mjs";
 
-function addProductToCart(product) {
-  setLocalStorage("so-cart", product);
-}
-// add to cart button event handler
-async function addToCartHandler(e) {
-  const product = await findProductById(e.target.dataset.id);
-  addProductToCart(product);
-}
+const productId = getParam("product");
+productDetails(productId);
 
-// add listener to Add to Cart button
-document
-  .getElementById("addToCart")
-  .addEventListener("click", addToCartHandler);
+document.getElementById('addToCart').addEventListener('click', function() {
+    // Get product details
+    const productName = "Grilled Honey-Lime Salmon with Mango Salsa";
+    const price = 11.19;
+
+    // Create a cart item object
+    const cartItem = { name: productName, price: price };
+
+    // Retrieve existing cart items from localStorage
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Add the new item to the cart
+    cart.push(cartItem);
+
+    // Save the updated cart back to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Notify the user that the product has been added to the cart
+    alert('Product added to cart!');
+  });

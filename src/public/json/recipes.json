@@ -1,0 +1,62 @@
+[
+  {
+    "image": "images/tents/sandwich.webp",
+    "name": "Victoria sandwich",
+    "packagesAvailable": 210,
+    "pricePerPackage": 9.99
+  },
+  {
+    "image": "images/recipe2.jpg",
+    "name": "Recipe 2",
+    "packagesAvailable": 220,
+    "pricePerPackage": 10.99
+  },
+  {
+    "image": "images/recipe3.jpg",
+    "name": "Recipe 3",
+    "packagesAvailable": 230,
+    "pricePerPackage": 11.99
+  },
+  {
+    "image": "images/recipe4.jpg",
+    "name": "Recipe 4",
+    "packagesAvailable": 240,
+    "pricePerPackage": 12.99
+  },
+  {
+    "image": "images/recipe5.jpg",
+    "name": "Recipe 5",
+    "packagesAvailable": 250,
+    "pricePerPackage": 13.99
+  },
+  {
+    "image": "images/recipe6.jpg",
+    "name": "Recipe 6",
+    "packagesAvailable": 260,
+    "pricePerPackage": 14.99
+  },
+  {
+    "image": "images/recipe7.jpg",
+    "name": "Recipe 7",
+    "packagesAvailable": 270,
+    "pricePerPackage": 15.99
+  },
+  {
+    "image": "images/recipe8.jpg",
+    "name": "Recipe 8",
+    "packagesAvailable": 280,
+    "pricePerPackage": 16.990000000000002
+  },
+  {
+    "image": "images/recipe9.jpg",
+    "name": "Recipe 9",
+    "packagesAvailable": 290,
+    "pricePerPackage": 17.990000000000002
+  },
+  {
+    "image": "images/recipe10.jpg",
+    "name": "Recipe 10",
+    "packagesAvailable": 300,
+    "pricePerPackage": 18.990000000000002
+  }
+]
